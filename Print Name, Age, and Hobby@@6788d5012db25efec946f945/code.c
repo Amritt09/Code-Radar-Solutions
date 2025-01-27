@@ -9,4 +9,4 @@ int main(){
     char str;
     scanf("%s",&str);
     printf("Hobby: %s \n",str);
-    }
+}
