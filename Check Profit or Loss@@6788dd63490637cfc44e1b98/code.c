@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int SP,CP,Profit,Loss;
-    scanf("%d %d %d %d",&SP,&CP,&Profit,&Loss);
-    if(SP>CP)
+    int cost_price, selling_price;
+    scanf("%d %d",&cost_price,&selling_price);
+    if(selling_price>cost_price)
     {printf("Profit");}
-    else id(CP>SP)
+    else id(cost_price>selling_price)
     {Printf("Loss");}
     else{Printf("No Profit No Loss");}
     return 0;
