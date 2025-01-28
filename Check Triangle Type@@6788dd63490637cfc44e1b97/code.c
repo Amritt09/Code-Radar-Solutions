@@ -2,7 +2,7 @@
 #include<math.h>
 int main(){
     int a,b,c;
-    if (a+b>c&&b+c>a&&a+c>b);
+    if (a+b>c&&b+c>a&&a+c>b);{
     scanf("%d %d %d", &a,&b,&c);
     if(a==b&&b==c&&c==a);
     {printf("Equilateral");}
@@ -10,4 +10,5 @@ int main(){
     {printf("Isosceles");}
     else{printf("Scalene");}
     return 0;
+    }
 }
