@@ -8,6 +8,4 @@ int main(){
     {Printf("Loss");}
     else{Printf("No Profit No Loss");}
     return 0;
-
-
 }
