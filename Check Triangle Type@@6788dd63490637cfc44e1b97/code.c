@@ -8,6 +8,7 @@ int main(){
         if(b==c){
             if(c==a){
                 printf("Equilateral");
+                break;
             }
         }
     }
