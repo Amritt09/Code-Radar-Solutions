@@ -2,11 +2,11 @@
 int main(){
     int num;
     scanf("%d",&num);
-    if(num %3 && num % 5)
+    if(num %3 && num % 5 == 0)
     {printf("Divisible by Both");}
     else if(num % 3 == 0)
     {printf("Divisible by 3");}
-    else if(num%5==0)
+    else if(num % 5 == 0)
     {printf(Divisible by 5);}
     else{printf("Not Divisible");}
     return 0;
