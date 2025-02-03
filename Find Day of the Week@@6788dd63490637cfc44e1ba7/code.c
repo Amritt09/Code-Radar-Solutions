@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main{
+    int num;
+    scanf("%d",&num);
+    switch(){
+        case 1:
+        printf("Monday\n");
+        break;
+        case 2:
+        printf("Tuesdsy\n");
+        break;
+        case 3:
+        printf("Wednesday\n");
+        case 4:
+        printf("Thursday\n");
+        break;
+        case 5;
+        printf("Friday\n");
+        break;
+        case 6;
+        printf("Saturday\n");
+        break;
+        case 7;
+        printf("Sunday\n");
+        break;
+        default("Invalid\n");
+        break;
+    }
+    return 0;
+
+
+    }
+}
