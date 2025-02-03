@@ -2,8 +2,8 @@
 int main(){
     int num;
     scanf("%d",&num);
-    if( num>1 && num % 1 == 0 && num % num == 0);
-    {printf("Prime");}
+    for (num<=9,num!=0,num++){printf("Prime");}
     else{printf("Not Prime");}
     return 0;
 }
+   
