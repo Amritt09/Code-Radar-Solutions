@@ -4,6 +4,6 @@ int main(){
     scanf("%d" ,&num)
     if (num<=0);
     {printf("Freezing");}
-    else{printf("Not Freezing");}
+    else{printf("Above Freezing");}
     return 0;
 }
