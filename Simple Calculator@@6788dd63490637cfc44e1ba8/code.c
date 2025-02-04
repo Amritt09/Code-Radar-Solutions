@@ -4,16 +4,16 @@ int num1,num2,result;
 char c;
 scanf("%d %d %c",&num1,&num2,&c);
 if(c=='+'){
-    printf("%d",nun1+num2);
+    printf("%d",num1+num2);
 }
 else if(c=='-'){
     printf("%d",num1-num2);
 }
 else if(c=='*'){
-    printf("%d",nun1*num2);
+    printf("%d",num1*num2);
 }
 else if(c=='/'){
-    printf("%d",nun1/num2);
+    printf("%d",num1/num2);
 }
 else{
     printf("Error");
