@@ -6,16 +6,16 @@ char c;
 scanf("%d %d %c",&num1,&num2,&c);
 switch(c){
 case "+":
-printf("num1 + num2 ");
+printf("%d + %d ");
 break;
 case "-":
-printf("num1 - num2 ");
+printf("%d - %d ");
 break;
 case "*":
-printf("num1 * num2 ");
+printf(" %d * %d ");
 break;
 case "/":
-printf("num1 / num2 ");
+printf("%d / %d ");
 break;
 default:
 printf("error");}
