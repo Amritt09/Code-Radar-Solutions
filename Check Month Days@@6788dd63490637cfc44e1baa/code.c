@@ -4,8 +4,8 @@ int monthdays;
 scanf("%d",&monthdays);
 printf("%d",monthdays);
 switch(monthdays){
-case :
-printf("31");
+case 1:
+printf("1");
 break;
 case 2:
 printf("28");
