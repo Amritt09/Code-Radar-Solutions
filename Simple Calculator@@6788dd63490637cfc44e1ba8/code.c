@@ -7,16 +7,16 @@ char c;
 scanf("%d %d %c",&num1,&num2,&c);
 switch(c){
 case "+":
-printf("%d + %d  = %d");
+printf("%d + %d  = %d",num1,num2,num1+num2);
 break;
 case "-":
-printf("%d - %d = %d");
+printf("%d - %d = %d",num1,num2,num1 - num2);
 break;
 case "*":
-printf(" %d * %d = %d");
+printf(" %d * %d = %d",num1 , num2, num1* num2);
 break;
 case "/":
-printf("%d / %d = %d");
+printf("%d / %d = %d",num1 , num2,num1/num2);
 break;
 default:
 printf("error");
