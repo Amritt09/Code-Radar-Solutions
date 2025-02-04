@@ -2,27 +2,21 @@
 int main(){
 int num1,num2,result;
 char c;
-
 scanf("%d %d %c",&num1,&num2,&c);
-switch(c){
-case '+':
-result=num1+num2;
-printf("%d",result);
-break;
-case '-':
-result=num1-num2;
-printf("%d",result);
-break;
-case '*':
-result=num1*num2;
-printf("%d",result);
-break;
-case '/':
-result=num1/num2;
-printf("%d",result);
-break;
-default:
-printf("error");
+if(c=='+'){
+    printf("%d",nun1+num2);
+}
+else if(c=='-'){
+    printf("%d",num1-num2);
+}
+else if(c=='*'){
+    printf("%d",nun1*num2);
+}
+else if(c=='/'){
+    printf("%d",nun1/num2);
+}
+else{
+    printf("Error");
 }
 return 0;
 }
