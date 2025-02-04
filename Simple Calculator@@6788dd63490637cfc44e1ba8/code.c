@@ -1,12 +1,23 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-int a,b;
-int result;
-char op;
-scanf("%c",&op);
-scanf("%d %d %d",&a,&b,&result);
-printf("%d ,%d ,%c,%d\n",a,b,op,result);
-result = a op b;
+int num1,num2;
+char c;
+scanf("%d %d %c",&num1,&num2,&c);
+switch(c);
+case "+":
+printf("num1 + num2 = num3");
+break;
+case "-":
+printf("num1 - num2 = num3");
+break;
+case "*":
+printf("num1 * num2 = num3");
+break;
+case "/":
+printf("num1 / num2 = num3");
+break;
+default:
+printf("error");
 return 0;
 }
