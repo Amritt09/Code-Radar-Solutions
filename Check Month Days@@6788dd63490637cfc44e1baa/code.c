@@ -5,7 +5,7 @@ scanf("%d",&monthdays);
 printf("%d",monthdays);
 switch(monthdays){
 case 1:
-printf("31\n",);
+printf("31\n");
 break;
 case 2:
 printf("28");
