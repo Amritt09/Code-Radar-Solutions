@@ -4,5 +4,9 @@ int main(){
     scanf("%c",&c);
     if (c=="R")
     {printf("Stop");}
-    else if("")
+    else if(c=="G")
+    {printf("Go");
+    }
+    else{printf("Slow Down");}
+    return 0;
 }
