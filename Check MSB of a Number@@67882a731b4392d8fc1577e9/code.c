@@ -18,15 +18,15 @@ int findMSB(int num) {
 
 int main() {
     int a;
-    scanf("%d", &a);  // Input the integer
+    scanf("%d", &a);  
     
-    // Find the MSB position
+n
     int msb_position = findMSB(a);
     
     if (msb_position == -1) {
-        printf("No MSB for 0\n");
+        printf("Set");
     } else {
-        printf("MSB position: %d\n", msb_position);
+        printf("Not Set", msb_position);
     }
     
     return 0;
