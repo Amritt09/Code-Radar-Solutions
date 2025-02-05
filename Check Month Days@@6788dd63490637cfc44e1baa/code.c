@@ -2,7 +2,7 @@
 int main(){
 int monthdays;
 scanf("%d",&monthdays);
-printf("%d",monthdays);
+//printf("%d",monthdays);
 switch(monthdays){
 case 1:
 printf("31\n");
