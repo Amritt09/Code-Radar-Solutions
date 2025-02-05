@@ -7,6 +7,7 @@ int main(){
     else if(c=="G")
     {printf("Go");
     }
-    else{printf("Slow Down");}
+    else if(c==Y)
+    {printf("Slow Down");}
     return 0;
 }
