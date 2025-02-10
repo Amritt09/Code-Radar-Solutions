@@ -6,6 +6,7 @@ int main(){
     scanf("%d %d", &num1,&num2);
     if(num1 = num2 * num2)
     {printf("Yes");}
+    
     else{printf("No");}
     return 0;
 
