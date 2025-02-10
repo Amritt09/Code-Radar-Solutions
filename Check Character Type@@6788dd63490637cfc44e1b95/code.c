@@ -9,7 +9,7 @@ int main(){
     {printf("Vowel");}
 
      else if 
-    (ch >='a' && ch<= 'z' || ch >='A' && ch<= 'Z')
+    ((ch >='a' && ch<= 'z') || (ch >='A' && ch<= 'Z'))
     {printf("Consonant");}
 
     else{printf("Special Character");}
