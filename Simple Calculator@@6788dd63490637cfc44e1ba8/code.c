@@ -16,7 +16,7 @@ else if(op=='*'){
 else if(op=='/'){
     if(num2!=0)
     printf("%d",num1/num2);
-    else{printf("Error");}
+    else{printf("error");}
 }
 else{
     printf("error");
