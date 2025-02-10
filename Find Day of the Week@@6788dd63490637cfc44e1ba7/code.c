@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main{
+int main(){
     int num;
     scanf("%d",&num);
     switch(num){
@@ -26,7 +26,7 @@ int main{
         break;
         default:
         printf("Invalid");
-        break;
+       
     }
         return 0;
     }
