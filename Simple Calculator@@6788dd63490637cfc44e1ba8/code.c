@@ -19,7 +19,7 @@ else if(op=='/'){
     else{printf("Error");}
 }
 else{
-    printf("Error");
+    printf("error");
 }
 return 0;
 }
