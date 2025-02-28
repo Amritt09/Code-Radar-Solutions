@@ -19,7 +19,7 @@ int main(){
     while( num ){
         int a;
         scanf("%d",&a);
-        printf("%d",prime_num(a))
+        printf("%d",prime_num(a));
         num--;
 
     } 
